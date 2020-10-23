@@ -1,6 +1,6 @@
 # Разработать REST-сервис, позволяющий по URL вида
-http://host:port/service_name/{table_name} получить все содержимое таблицы в БД, а по
-URL вида http://host:port/service_name/{table_name}/{row_id} - одну запись. Данные URL
+//host:port/service_name/{table_name} получить все содержимое таблицы в БД, а по
+URL вида //host:port/service_name/{table_name}/{row_id} - одну запись. Данные URL
 защитить с помощью spring security. Более детальные требования к реализации:
 1) Проект должен собираться с помощью maven/gradle и располагаться в git
 репозитории.
@@ -28,6 +28,6 @@ Data JPA.
 записей по id из таблиц с композитными ключами или ключем с другим именем не
 рассматривать и не реализовывать.
 
-Дефолтные логин и пароль:
-user password
-admin admin
+Дефолтные login и password:
+log: user , pass: password ;
+log: admin , pass: admin
