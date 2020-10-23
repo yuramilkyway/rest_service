@@ -23,7 +23,7 @@ public class DogServiceImpl implements DogService {
         List<DogDTO> list = new ArrayList<>();
         Iterable<Dog> all = dogRepository.findAll();
         for (Dog dog : all) {
-            list.add(DTOConverter.convertToDTO(dog));
+            list.add(DTOConverter.dogConvertToDTO(dog));
         }
         list.sort(Comparator.comparing(DogDTO::getName));
         return list;
