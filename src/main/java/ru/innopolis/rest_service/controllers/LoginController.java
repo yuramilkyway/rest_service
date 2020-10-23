@@ -1,4 +1,4 @@
-package ru.innopolis.rest_service.controller;
+package ru.innopolis.rest_service.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
